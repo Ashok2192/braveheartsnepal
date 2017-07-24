@@ -1,0 +1,176 @@
+@CHARSET "ISO-8859-1";
+*
+{
+	margin:0;
+	padding:0;
+}
+.row{
+	max-width:1140px;
+	margin:auto;
+}
+
+
+body
+{
+	font-family:Tahoma;
+}
+.hero
+{   color:red;
+	position:absolute;
+	width:1140px;
+	top:40%;
+	left:80%;
+	transform:translate(-50%,-50%);
+	}
+	header
+	{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/hero.jpg);
+	height:120vh;
+	background-size:cover;
+	background-attachment:fixed;
+	}
+	
+	h1{color:white}
+	h2{color:white}
+	
+	.main-nav{
+	list-style:none;
+	float:right;
+	}
+	
+	.main-nav li{
+	display:inline-block; 
+	margin:20px;
+	 
+	}
+	
+	.main-nav li a{
+	color:white;
+		text-decoration:none;
+	
+	}
+	
+	.main-nav li a:hover{
+	color:#e67e22;
+	border-bottom:2px solid #e67e22;
+	transition:all 0.5s ease-in;
+	padding:10px 0;
+	}
+	
+	.logo img{
+	height:100px;
+	float:left;
+	}
+	
+	.btn{
+	border:1px #e67e22;
+	padding:10px 30px;
+	color:#e67e22;
+	text-decoration:none;
+	border-radius:12px;
+	margin-right:20px;
+	}
+	
+	.btn-half{
+	background-color:#e67e22;
+	color:white;
+	}
+	
+	.btn-full:hover{
+	background-color:#e67e22;
+	color:white;
+	transition:all 0.5s ease-in;
+	}
+	.copy{
+	width:90%;
+	margin:6%;
+	}
+	.button-awesome{
+	margin-top:50px;
+	}
+	
+	.text-center{
+	width:70%;
+	margin:15%;
+	margin-top:40px;
+	margin-bottom:40px;
+	
+	}
+	
+	.text-center:after{
+	width:670px;
+	height:2px;
+	background-color:#e67e22;
+	display:block;
+	content:" ";
+	margin:0 auto;
+	margin-top:15px;
+	margin-left:75px;
+	}
+	.arranging{
+	text-align:justify
+	} 
+	.work-showcase{
+	list-style:none;
+	width:100%;
+		}
+	.work-showcase li{
+	display:block;
+	width:25%;
+	float:left;
+	}	
+	.work-photo{
+	width:100%;
+	margin:0;
+	overflow:hidden;
+	
+	}
+	.work-photo img{
+	width:100%;
+	height:auto;
+	transform: scale(1.15);
+	transition: all 0.5s;
+	}
+	.work-photo img:hover{
+	transform: scale(1.05);	
+	}
+	.work{
+	margin-top:60px;
+	}
+	.pic img{
+	width:60%;
+	}
+	.clearfix{
+	zoom:1;
+	}
+	.clearfix:after {
+	visibility:hidden;
+	content:".";
+	height:0;
+	display:block;
+	clear:both;
+	
+	}
+	.introduction{
+	margin-top:60px;
+	}
+	.current{
+	margin-top:60px;
+	}
+	.testimonials{
+	margin-top:80px;
+	
+	}
+	.btn-block{
+	margin-top:20px;
+	background-color:#e67e22;
+	color:#fff;
+	border-radius:4px;
+	}
+	.gap{
+	margin-top:40px;
+	}
+	.form{
+	margin-top:40px;
+	margin-bottom:60px;
+	}
